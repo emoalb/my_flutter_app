@@ -8,7 +8,7 @@ class Products extends StatelessWidget {
   } //automatically sets products
   @override
   Widget build(BuildContext context) {
-    print('[Products Widgets] build');
+    print('[Products Widgets] Build');
     // TODO: implement build
     return Column(
       children: products
