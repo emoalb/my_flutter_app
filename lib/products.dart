@@ -3,9 +3,12 @@ import 'package:flutter/material.dart';
 class Products extends StatelessWidget {
   final List<String> products;
 
-  Products(this.products); //automatically sets products
+  Products(this.products){
+    print('[Products Widgets] Constructor');
+  } //automatically sets products
   @override
   Widget build(BuildContext context) {
+    print('[Products Widgets] build');
     // TODO: implement build
     return Column(
       children: products
