@@ -1,21 +1,18 @@
 import 'package:flutter/material.dart';
 
-
 import './product_manager.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     return new MaterialApp(
       home: Scaffold(
-          appBar: AppBar(title: Text('EasyList')),
-          body:ProductManager(),
-          ),
+        appBar: AppBar(title: Text('EasyList')),
+        body: ProductManager(),
+      ),
     );
   }
 }
-
