@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return new MaterialApp(
       home: Scaffold(
         appBar: AppBar(title: Text('EasyList')),
-        body: ProductManager(),
+        body: ProductManager('Food Tester'),
       ),
     );
   }
